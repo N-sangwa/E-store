@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/cb016f69f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="header">
+
+   
+
+ <div class="container" >
+    <div class="navbar">
+       <div class="logo">
+          <img src="/images/mylogo.png" alt="" width="150px">
+          
+       </div>
+     <nav>
+          <ul id="menuItems" >
+            <li> <a href=""> Home</a> </li>
+            <li> <a href=""> Products</a> </li>
+            <li> <a href=""> About</a> </li>
+            <li> <a href=""> Account</a> </li>
+          </ul>
+      </nav>
+      <img src="/images/cart-plus-solid.svg"  width="28px" height="28px" alt="">
+      <img class="menu-icon" src="/images/h.menu.png"  width="28px" height="28px" onclick="menutoggle()"  alt="">
+
+    </div>
+    <div class="row">
+        <div class="col-2">
+           <h1>You order,<br>We deliver!</h1>
+           <p>Lorem Ipsum is simply dummy text of the printing 
+            and typesetting industry. <br> Lorem Ipsum has been the 
+             </p>
+             <a href="" class="btn"> Explore Now &#x2192; </a>
+        </div>
+        <div class="col-2">
+            <img src="/images/cproductsinacart-removebg-preview.png" width="500px" alt="">
+        </div>
+    </div>
+ </div>
+</div> 
+
+<!---- featured category-->
+
+<div class="categories">
+      
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+              <img  src="/images/juices.png"  width="300px" height="180px" alt="">
+            </div>
+            <div class="col-3">
+              <img id="2ndimage" src="/images/supermarketproducts&wine.png " width="190px" height="200px"  alt="">
+            </div>
+            <div class="col-3">
+              <img id="2ndimage"  src="/images/meatsbestimage.png" width="300px" height="150px"  alt="">
+            </div>
+        </div>  
+    </div>
+
+</div>
+
+<!---featured products-->
+<div>
+ <div class="small-container">
+    <h2 class="title">Featured products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="/images/mangojuice.webp"  alt="">
+            <h4>Concentrated Mango Juice</h4>
+           <div class="rating">    
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+           </div>
+          <p>$20</p>
+        </div>
+
+        <div class="col-4">
+          <img src="/images/nakedshake.png "  alt="">
+          <h4>Strawberry & Banana Shake</h4>
+         <div class="rating">    
+          <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+         </div>
+        <p>$25</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/images/tomatopaste.png "  alt="">
+        <h4>Chilli Ketchup</h4>
+       <div class="rating">    
+        <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+
+        <!-- <i class="fa fa-star-o"></i> -->
+       </div>
+      <p>$10</p>
+    </div>
+
+    <div class="col-4">
+      <img src="/images/naked jam.png"  alt="">
+      <h4>Pure Peach Jam </h4>
+     <div class="rating">    
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+     </div>
+    <p>$15</p>
+  </div>
+
+</div>
+
+    <h2 class="title">Latest Products</h2>
+
+    <div class="row">
+      <div class="col-4">
+          <img src="/images/naked jam.png "  alt="">
+          <h4>Concentrated Mango Juice</h4>
+         <div class="rating">    
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+         </div>
+        <p>$20</p>
+      </div>
+
+      <div class="col-4">
+        <img src="/images/tomatopaste.png     "  alt="">
+        <h4>Strawberry & Banana Shake</h4>
+       <div class="rating">    
+        <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+       </div>
+      <p>$25</p>
+    </div>
+
+    <div class="col-4">
+      <img src="/images/nakedshake.png"  alt="">
+      <h4>Chilli Ketchup</h4>
+     <div class="rating">    
+      <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+     <i class="fa fa-star"></i>
+      <i class="fa fa-star-o"></i>
+
+      <!-- <i class="fa fa-star-o"></i> -->
+     </div>
+    <p>$10</p>
+  </div>
+
+  <div class="col-4">
+    <img src="/images/mangojuice.webp"  alt="">
+    <h4>Pure Peach Jam </h4>
+   <div class="rating">    
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star"></i>
+    <i class="fa fa-star-half-o"></i>
+   </div>
+  <p>$15</p>
+</div>
+
+<div class="row">
+  <div class="col-4">
+      <img src="/images/mangojuice.webp"  alt="">
+      <h4>Concentrated Mango Juice</h4>
+     <div class="rating">    
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-half-o"></i>
+     </div>
+    <p>$20</p>
+  </div>
+
+  <div class="col-4">
+    <img src="/images/nakedshake.png "  alt="">
+    <h4>Strawberry & Banana Shake</h4>
+   <div class="rating">    
+    <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+    <i class="fa fa-star-o"></i>
+   </div>
+  <p>$25</p>
+</div>
+
+<div class="col-4">
+  <img src=" /images/tomatopaste.png "  alt="">
+  <h4>Chilli Ketchup</h4>
+ <div class="rating">    
+  <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+ <i class="fa fa-star"></i>
+  <i class="fa fa-star-o"></i>
+
+  <!-- <i class="fa fa-star-o"></i> -->
+ </div>
+<p>$10</p>
+</div>
+
+<div class="col-4">
+<img src="/images/naked jam.png"  alt="">
+<h4>Pure Peach Jam </h4>
+<div class="rating">    
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+<p>$15</p>
+</div>
+
+</div>
+
+</div>
+    
+ </div>
+
+<!-----Offer -->
+
+<div class="offer">
+  <div class="small-container">
+   <div class="row">
+     <div class="col-2">
+    <img class="offer-img" src="/images/naked jam.png" alt="">
+     </div>
+
+     <div class="col-2">
+    <p>Exclusively available on NS store</p>
+    <h1>Smart Band</h1>
+    <small>Lorem Ipsum is simply dummy text of the printing 
+      and typesetting industry. Lorem Ipsum has been the 
+      industry's standard dummy text ever since the 1500s,
+    </small>
+    <a href="" class="btn">Buy Now &#x2192;</a>
+    </div>
+   </div>
+  </div>
+</div> 
+
+<!-----Testmonies-->
+
+<div class="testmonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-4">
+        <i class="fa fa-quote-left"></i>
+        <p> industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and 
+          scrambled it to make a type specimen book. 
+        </p>
+        <div class="rating">    
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          </div>
+         <img src="/images/sakina.jpeg" alt="">
+         <h3>sakina </h3>
+
+      </div>
+      
+      
+      <div class="col-4">
+        <i class="fa fa-quote-left"></i>
+        <p> industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and 
+          scrambled it to make a type specimen book. 
+        </p>
+        <div class="rating">    
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          </div>
+         <img src="/images/rosalie.jpeg" alt="">
+         <h3>Rosalie</h3>
+
+      </div>
+      <div class="col-4">
+        <i class="fa fa-quote-left"></i>
+        <p> industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and 
+          scrambled it to make a type specimen book. 
+        </p>
+        <div class="rating">    
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+          </div>
+         <img src="/images/Rwazi.jpeg" alt="">
+         <h3>Joseph</h3>
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+
+      
+
+      <div class="col-4">
+        <img class="logos" src="/images/beefup-removebg-preview.png" alt="">
+      </div>
+
+      <div class="col-4">
+        <img class="logos" src="/images/careefour.png" alt="">
+      </div>
+
+      <div class="col-4">
+        <img class="logos" src="/images/shoprite-removebg-preview.png" alt="">
+      </div>
+
+      <div class="col-4">
+        <img class="logos" src="/image-removebg-preview (6).png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!----footer-->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download our App</h3>
+        <p>Download our App for Android and ios mobile phone</p>
+        <div class="app-logo">
+          <img src="/images/mylogo.png"  alt="">
+        </div>
+    
+      </div>
+
+      <div class="footer-col-2">
+        <img  width="150px"  src="/images/mylogo.png" alt="">
+        <p>A trusted source of your necessities! A trusted source of your necessities!</p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return POlicy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+   <hr>
+   <p class="copyright">Copyright2022 - NADINESTORE</p>
+  </div>
+</div>
+
+<!-- <script>
+  let menuItems = document.getElementById('menuItems');
+  menuItems.style.maxHeight == '0px'
+function menutoggle() {
+  if( menuItems.style.maxHeight == '0px'){
+    menuItems.style.maxHeight == '200px'
+  }
+  else{
+    menuItems.style.maxHeight == '0px';
+  }
+   
+}
+
+</script> -->
+
+</body>
+</html>
+
